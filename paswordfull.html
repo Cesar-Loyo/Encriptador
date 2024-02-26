@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creador de Password</title>
+    <script src="./JSpassword.js"></script>
+    <link rel="stylesheet" href="./style-password.css">
+</head>
+<body>
+    <header>
+        Genera y Decifra tu Password
+    </header>
+    <main>
+        <div class="texto1">
+            <h2>Introduce tu Texto</h2>
+            <textarea id="textoUsuario" placeholder="escribe aqui tu mensaje"></textarea>
+            <button onclick="generarPasword()" id="botongenerar" class="botones">Generar Password</button>
+            <button onclick="decifrarPasword()" id="botondecifrar" class="botones">Decifrar Password</button>
+        </div>
+        <ul class="texto2">
+            <h2>Resultado</h2>
+            <li>
+                <textarea id="cajaresultado" placeholder="esperando texto">no hay mensaje para mostrar</textarea>
+            </li>
+            <li>
+                <button onclick="copiado()" id="copiado" class="botones">Copiar</button>
+            </li>
+        </ul>
+        
+        
+        
+        
+    </main>
+</body>
+</html>
